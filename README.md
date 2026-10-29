@@ -23,4 +23,10 @@ The smart car comes with three modes listed as the following:
 3. Automatic Object Avoidance: This allows the robot to navigate the space autonomously, and for a non-specified goal.
 
 
-The "tunel" folder has the code of the autonoumous navigation of the car. During development this code was written and tested seperately before getting embedded with the other ones. I left it there for reference
+The "tunel" folder has the code of the autonoumous navigation of the car. During development this code was written and tested seperately before getting embedded with the other ones. I left it there for reference.
+
+
+Details:
+This project is made of a robot and its controller. The robot is build arround the Arduino Mega, that is acting as the brain of the robot, and connects to the Arduino Uno that works as the brain of the controller, via bluetooth modules HC-05, where the module of the controller worked as a 'Master', and that of the robot car as a 'Salve'. The robot car is equipped with an ultrasonic sensor as shown in the figure below, which detect obsticals during the autonumous navigation, as well with three grey scalor sensors that detect lines with dark colors and follow it all along, the they were distributed such that the left one detects if there are any line on the left, the right one detects any line on the right, and the middle one detect a line in the middle, if none of them detected any lines, the robot consider that is reaches the end, so it stops.
+The car was powered with two power sources, the motors were connected to an external power supply of lithium-ion batteries, and the arduino mega was powered through a 9V battery via its DC power jack to preserve its stability of operation.
+As a special touch we've added white leds
