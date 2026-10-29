@@ -1,0 +1,6 @@
+This project enables users to interact with the robot in both autonomous and manual modes. It provides the opportunity to select one of the following three modes:
+1. Line Following
+2. Manual Control
+3. Automatic Object Avoidance
+
+Please find attached both the Controller and Robot code files.
