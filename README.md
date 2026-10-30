@@ -1,10 +1,10 @@
-# SmartCarUniPrj
+# Smart Car (A University Project)
 
 ## Project Overview
 
 This project was developed by:
 
-- **Lawrence Abou Karroum** ([Personal Website](https://lawrence-abou-karroum.web.app/), [LinkedIn](https://www.linkedin.com/in/lawrence-abou-karroum/))
+- **Lawrence Abou Karroum** - me ([Personal Website](https://lawrence-abou-karroum.web.app/), [LinkedIn](https://www.linkedin.com/in/lawrence-abou-karroum/))
 - **Ahmad Mansour** ([LinkedIn](https://www.linkedin.com/in/ahmad-mansour-48489a2b9/))
 - **Majd Nasrallah** ([LinkedIn](#))
 - **Ziad Hamede** ([LinkedIn](#))
@@ -13,15 +13,14 @@ It was our final project for the **Embedded Systems Lab** course at the Universi
 
 The following image shows the final result of the project:
 
-![Final Project Result](30-4-2024.jpg)
-
 You can also check out this short video on my YouTube channel for a quick glimpse of the final result:
 
 [Watch the project demonstration on YouTube](https://www.youtube.com/shorts/GpCHDOonlNM)
 
 **Project completion date:** May 30, 2024.
 
----
+![Final Project Result](30-5-2024.jpg)
+
 
 ## Repository Structure
 
@@ -47,7 +46,6 @@ See the following image:
 
 This folder contains the code for the car's autonomous navigation system. During development, this code was written and tested separately before being integrated with the other components. I left it in the repository for reference.
 
----
 
 ## Robot Operating Modes
 
@@ -59,7 +57,6 @@ The smart car supports three operating modes:
 
 3. **Automatic Object Avoidance:** Allows the robot to navigate its surroundings autonomously by detecting and avoiding obstacles, without requiring a predefined destination.
 
----
 
 ## Hardware and Technical Details
 
@@ -134,7 +131,6 @@ The three speed levels correspond to the following duty cycles:
 
 At 100%, the motor driver receives a continuous control signal, allowing the motors to operate at their maximum available power.
 
----
 
 ## The Remote Controller
 
@@ -156,7 +152,6 @@ The five buttons serve the following purposes:
 
 An **LCD screen** was also integrated into the controller to display information and the current system state. The Bluetooth module handles communication with the robotic car, while a 9V battery powers the Arduino Uno and the controller's components.
 
----
 
 ## How It All Works
 
@@ -180,8 +175,7 @@ To cancel a selection, the user can simply select the currently active mode agai
 
 It is also worth noting that the yellow button on the robotic car was primarily included to provide easy access to the reset function of the Arduino Mega. This was particularly useful during testing and debugging.
 
----
 
-## Additional Notes
+## Quick Note
 
-None of the products or components shown in the images above are sponsored. The images are presented as they are, including their original brand names and logos.
+Please note that none of the products or components shown in the images above are sponsored. The images are presented as they are, including their original brand names and logos.
