@@ -4,7 +4,7 @@
 
 This project was developed by:
 
-- **Lawrence Abou Karroum** - me ([Personal Website](https://lawrence-abou-karroum.web.app/), [LinkedIn](https://www.linkedin.com/in/lawrence-abou-karroum/))
+- **Lawrence Abou Karroum** ([Personal Website](https://lawrence-abou-karroum.web.app/), [LinkedIn](https://www.linkedin.com/in/lawrence-abou-karroum/))
 - **Ahmad Mansour** ([LinkedIn](https://www.linkedin.com/in/ahmad-mansour-48489a2b9/))
 - **Majd Nasrallah** ([LinkedIn](#))
 - **Ziad Hamede** ([LinkedIn](#))
